@@ -1,0 +1,30 @@
+>DECIMAL_CS_VERSION=78
+
+// (0001) - Bluetooth device address
+&BDADDR = 1583 5b00 0002
+
+// (0002) - Crystal frequency trim
+&CRYSTAL_FTRIM = 0020
+
+//  CSR_MESH_CS_USERKEY_INDEX_ADV_INTERVAL = 0
+//  CSR_MESH_CS_USERKEY_INDEX_ADV_TIME = 1
+//  CSKEY_INDEX_USER_FLAGS = 2
+//          Bit Field[0] = RANDOM_UUID_ENABLE
+//          Bit Field[1] = RELAY_ENABLE
+//          Bit Field[2] = BRIDGE_ENABLE
+
+&USER_KEYS = 005A 0258 0007 0000 0000 0000 0000 0000
+
+// Always set the nvm start to f7ff or higher when using OTA Upgrade
+&NVM_START_ADDRESS = f800
+&NVM_SIZE = 0100
+
+// Comment out the following block if EEPROM is used
+// CS Keys values for 512kbit SPI Memory - These CS keys should be used if 
+//                                         SPI Memory is being used.
+//&spi_flash_block_size = 1000       // SPI flash block size in bytes(Hex)
+//&nvm_num_spi_blocks   = 2          // Two blocks reserved for NVM
+//&nvm_start_address = e000          // Default value(in hex) for a 512kbit
+//                                   // Memory
+//&nvm_size = 100                    // Default value(number of words for a
+//                                   // 512kbit Memory

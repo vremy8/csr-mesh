@@ -1,0 +1,145 @@
+   1                 		.file	"gunilamp_hw.c"
+   2                 		.variant xap2+
+   3                 	
+   4                 		.small
+   5                 	
+   6                 		.section	.debug_abbrev,"",@progbits
+   7                 	.Ldebug_abbrev0:
+   8                 		.section	.debug_info,"",@progbits
+   9                 	.Ldebug_info0:
+  10                 		.section	.debug_line,"",@progbits
+  11                 	.Ldebug_line0:
+  12 0000 00 00 00 00 		.text
+  12      00 02 00 00 
+  12      00 00 01 01 
+  12      FB 0E 0D 00 
+  12      01 01 01 01 
+  13                 	.Ltext0:
+  14                 	.Letext0:
+  15                 		.section	.debug_info
+  16 0000 00 00 00 53 		.4byte	0x53
+  17 0002 00 02       		.2byte	0x2
+  18 0003 00 00 00 00 		.4byte	.Ldebug_abbrev0
+  19 0005 04          		.1byte	0x4
+  20 0005 01          		.1byte	0x1
+  21 0006 00 00 00 00 		.4byte	.LASF7
+  22 0008 01          		.1byte	0x1
+  23 0008 00 00 00 00 		.4byte	.LASF8
+  24 000a 00 00 00 00 		.4byte	.LASF9
+  25 000c 00 00 00 00 		.4byte	.Ltext0
+  26 000e 00 00 00 00 		.4byte	.Letext0
+  27 0010 00 00 00 00 		.4byte	.Ldebug_line0
+  28 0012 02          		.1byte	0x2
+  29 0013 02          		.1byte	0x2
+  30 0013 08          		.1byte	0x8
+  31 0014 00 00 00 00 		.4byte	.LASF0
+  32 0016 02          		.1byte	0x2
+  33 0016 02          		.1byte	0x2
+  34 0017 07          		.1byte	0x7
+  35 0017 00 00 00 00 		.4byte	.LASF1
+  36 0019 02          		.1byte	0x2
+  37 001a 04          		.1byte	0x4
+  38 001a 07          		.1byte	0x7
+  39 001b 00 00 00 00 		.4byte	.LASF2
+  40 001d 02          		.1byte	0x2
+  41 001d 02          		.1byte	0x2
+  42 001e 06          		.1byte	0x6
+  43 001e 00 00 00 00 		.4byte	.LASF3
+  44 0020 02          		.1byte	0x2
+  45 0021 02          		.1byte	0x2
+  46 0021 05          		.1byte	0x5
+  47 0022 00 00 00 00 		.4byte	.LASF4
+  48 0024 02          		.1byte	0x2
+  49 0024 04          		.1byte	0x4
+  50 0025 05          		.1byte	0x5
+  51 0025 00 00 00 00 		.4byte	.LASF5
+  52 0027 02          		.1byte	0x2
+  53 0028 02          		.1byte	0x2
+  54 0028 07          		.1byte	0x7
+  55 0029 00 00 00 00 		.4byte	.LASF6
+  56 002b 00          		.1byte	0x0
+  57                 		.section	.debug_abbrev
+  58 0000 01          		.1byte	0x1
+  59 0000 11          		.1byte	0x11
+  60 0001 01          		.1byte	0x1
+  61 0001 25          		.1byte	0x25
+  62 0002 0E          		.1byte	0xe
+  63 0002 13          		.1byte	0x13
+  64 0003 0B          		.1byte	0xb
+  65 0003 03          		.1byte	0x3
+  66 0004 0E          		.1byte	0xe
+  67 0004 1B          		.1byte	0x1b
+  68 0005 0E          		.1byte	0xe
+  69 0005 11          		.1byte	0x11
+  70 0006 01          		.1byte	0x1
+  71 0006 12          		.1byte	0x12
+  72 0007 01          		.1byte	0x1
+  73 0007 10          		.1byte	0x10
+  74 0008 06          		.1byte	0x6
+  75 0008 00          		.1byte	0x0
+  76 0009 00          		.1byte	0x0
+  77 0009 02          		.1byte	0x2
+  78 000a 24          		.1byte	0x24
+  79 000a 00          		.1byte	0x0
+  80 000b 0B          		.1byte	0xb
+  81 000b 0B          		.1byte	0xb
+  82 000c 3E          		.1byte	0x3e
+  83 000c 0B          		.1byte	0xb
+  84 000d 03          		.1byte	0x3
+  85 000d 0E          		.1byte	0xe
+  86 000e 00          		.1byte	0x0
+  87 000e 00          		.1byte	0x0
+  88 000f 00          		.1byte	0x0
+  89                 		.section	.debug_str,"MS",@progbits,1
+  90                 	.LASF8:
+  91 0000 67 75 6E 69 		.ascii "gunilamp_hw.c\000"
+  91      6C 61 6D 70 
+  91      5F 68 77 2E 
+  91      63 00 
+  92                 	.LASF6:
+  93 0007 75 6E 73 69 		.ascii "unsigned int\000"
+  93      67 6E 65 64 
+  93      20 69 6E 74 
+  93      00 
+  94                 	.LASF2:
+  95 000d 6C 6F 6E 67 		.ascii "long unsigned int\000"
+  95      20 75 6E 73 
+  95      69 67 6E 65 
+  95      64 20 69 6E 
+  95      74 00 
+  96                 	.LASF3:
+  97 0016 73 69 67 6E 		.ascii "signed char\000"
+  97      65 64 20 63 
+  97      68 61 72 00 
+  98                 	.LASF1:
+  99 001c 73 68 6F 72 		.ascii "short unsigned int\000"
+  99      74 20 75 6E 
+  99      73 69 67 6E 
+  99      65 64 20 69 
+  99      6E 74 00 
+ 100                 	.LASF4:
+ 101 0026 73 68 6F 72 		.ascii "short int\000"
+ 101      74 20 69 6E 
+ 101      74 00 
+ 102                 	.LASF7:
+ 103 002b 47 4E 55 20 		.ascii "GNU C 4.3.4 CSR version 24 for xap [1865517]\000"
+ 103      43 20 34 2E 
+ 103      33 2E 34 20 
+ 103      43 53 52 20 
+ 103      76 65 72 73 
+ 104                 	.LASF0:
+ 105 0041 75 6E 73 69 		.ascii "unsigned char\000"
+ 105      67 6E 65 64 
+ 105      20 63 68 61 
+ 105      72 00 
+ 106                 	.LASF5:
+ 107 0048 6C 6F 6E 67 		.ascii "long int\000"
+ 107      20 69 6E 74 
+ 107      00 
+ 108                 	.LASF9:
+ 109 004d 43 3A 5C 43 		.ascii "C:\\CSR_uEnergy_SDK-2.4.5.13\\csr\\1YD-Mesh Light DEV V2.1\\CSR Mesh V1.3\\applications\\C
+ 109      53 52 5F 75 
+ 109      45 6E 65 72 
+ 109      67 79 5F 53 
+ 109      44 4B 2D 32 
+ 110                 		.ident	"GCC: (GNU) 4.3.4 CSR version 24 for xap [1865517]"

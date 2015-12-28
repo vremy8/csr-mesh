@@ -1,0 +1,22 @@
+/******************************************************************************
+ *  Copyright Cambridge Silicon Radio Limited 2015
+ *  CSR Bluetooth Low Energy CSRmesh 1.3 Release
+ *  Application version 1.3
+ *
+ *  FILE
+ *      app_gatt_db.db
+ *
+ *  DESCRIPTION
+ *      This file defines the application ATT data base in JSON format.
+ *      This file is taken as input by gattdbgen tool to produce ATT 
+ *      flat data base. 
+ *
+ *****************************************************************************/
+#include "user_config.h"
+
+#include "gatt_service_db.db"
+#include "gap_service_db.db"
+#ifdef ENABLE_GATT_OTA_SERVICE
+#include "csr_ota_db.db"
+#endif /* ENABLE_GATT_OTA_SERVICE */
+#include "mesh_control_service_db.db"
